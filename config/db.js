@@ -18,7 +18,7 @@ const conectarDB = async () =>{
         console.log('Hubo un error');
         console.log(error);
         process.exit(1);
-    }
+    };
 }
 
 module.exports = conectarDB;
